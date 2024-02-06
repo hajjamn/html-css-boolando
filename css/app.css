@@ -42,6 +42,10 @@ a, button {
     flex-wrap: wrap;
 }
 
+.direction-col {
+    flex-direction: column;
+}
+
 /* STYLE */
 
 .page-header {
@@ -80,6 +84,14 @@ a, button {
 
 /* MAIN */
 
+.page-content .content-section {
+    padding: 50px 0;
+}
+
+.page-content .product > img {
+    display: block;
+}
+
 /* FOOTER */
 
 .page-footer {
@@ -104,4 +116,8 @@ a, button {
 
 .page-footer h3 {
     font-size: 20px;
+}
+
+.page-footer h5 {
+    font-size: 14px;
 }
