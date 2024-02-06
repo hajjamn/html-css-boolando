@@ -48,6 +48,10 @@ a, button {
 
 /* STYLE */
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .page-header {
     background-color: #FF6900;
     color: white;
@@ -71,6 +75,16 @@ a, button {
 [class*=sustain] {
     background-color: green;
 }
+
+.after-disc {
+    color: red;
+}
+
+.before-disc {
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
 
 /* HEADER */
 
@@ -140,6 +154,30 @@ a, button {
 
 .product .badge-container > * {
     padding: 0 10px;
+}
+
+.product .product-alt-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+.product:hover .product-alt-img {
+    opacity: 1;
+}
+
+.page-content .product-brand {
+    font-weight: 300;
+}
+
+.page-content .product-name {
+    font-weight: 700;
+}
+
+.page-content .product-info .price {
+    font-weight: 700;
 }
 
 /* FOOTER */
