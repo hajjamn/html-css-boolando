@@ -18,3 +18,17 @@ a, button {
     text-decoration: none;
     color: currentColor;
 }
+
+/* LAYOUT */
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* UTILITIES */
