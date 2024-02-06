@@ -116,6 +116,19 @@ a, button {
     padding: 50px 0;
 }
 
+.page-content .row > *{
+    padding: 0 5px;
+}
+
+.page-content .row {
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.page-content .card {
+    max-width: calc(4 * 100% / 12 - 5px)
+}
+
 .page-content .product > img {
     display: block;
 }
