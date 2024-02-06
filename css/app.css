@@ -123,6 +123,7 @@ a, button {
 .page-content .row {
     gap: 5px;
     justify-content: space-between;
+    row-gap: 50px;
 }
 
 .page-content .card {
